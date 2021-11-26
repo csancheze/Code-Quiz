@@ -4,18 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://allfont.es/allfont.css?fonts=lumos" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Word Guess</title>
+    <title>Code Quiz</title>
   </head>
   <body>
       <header>
-      
+        <a href="highscores.html">Highscores</a>
+      <p>Time:  <span id="timer">60</span></p>
       </header>
     
       <main>
+      <section id="welcome" style="display:block">
+      <h1>Code Quiz Challenge</h1>
+      <h2>Harry Potter Edition</h2>
+      <p> You have a chance to prove your letter to Hogwarts was stolen by a mad elf. Show your knowledge of magic in this fast paced quiz. You will be presented with a couple of questions with multiple answers, one after the other. Only one answer is correct. Wrong answers will reduce your time. If you think you can do it, press the magic button before start. </p>
+      <p>But if you want to study for your coding interview, just press the start button</p>
+      <p id="magicact"style="display:none">Magic mode activated <br> $</p>
+      <div>
+      <button id="magic">`Magic</button>
+      <button id="start">Start</button>
+      </div>
+      <p id="magicact"style="display:none">Magic mode activated <br> $</p>
+      </section>
+      </main>
+      <section id="questionbox" style="display:none">
+        <form>
+        <h3 id="question"></h3>
+        <ul>
+          <li>
+          <button class="answer"></button>
+          </li>
+          <li>
+            <button class="answer"></button>
+          </li>
+          <li>
+            <button class="answer"></button>
+          </li>
+          <li>
+           <button class="answer"></button>
+          </li>
+        </ul>
+        </form>
+        <p id="feedback"></p>
+      </section>
+
+      <section id="done" style="display:none">
+        <form action="highscores.html" method="post">
+          <h2>Done ></h2>
+          <p>Your score is <span id="score"></span> of 100.</p>
+          <div style="width: 100%;">
+          <label for="initials">Enter initials:</label>
+          <input id="initials" type="text" maxlength="3" name="intials">
+          </div>
+          <button id="submit">Enter</button>
+        </form>
+        <div>
+          <a href="index.html" id="back" onclick="event.stopPropagation()">Go back</a>
+        </div>
+      </section>
      
-    </main>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
