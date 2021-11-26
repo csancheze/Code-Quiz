@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'lumoscaps';
-    src: url("../Code-Quiz/assets/css/lumos-webfont.woff2") format('woff2'),
-         url('../Code-Quiz/assets/css/lumos-webfont.woff') format('woff');
+    src: url("lumos-webfont.woff2") format('woff2'),
+         url('lumos-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
