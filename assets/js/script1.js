@@ -8,7 +8,7 @@ var highscores = [
 var initials = localStorage.getItem("initials")
 var score = localStorage.getItem("score")
 var highscoresList = document.getElementById("highscores")
-var reset = document.getElementById("reset");
+var reseto = document.getElementById("reseto");
 var highscoresArray;
 window.onunload = function(event) {
   localStorage.removeItem("initials")
@@ -48,10 +48,10 @@ function renderOldScores(){
   }
 }
 
-reset = addEventListener("click", function(event) {
-  event.stopPropagation();
+reseto = addEventListener("click", function(event) {
+  event.preventDefault();
   localStorage.removeItem("storedHighscores")
-  highscoresList.innerHTML = "";
+  highscoresList.textContent = "";
 })
 
 if (initials != null) {

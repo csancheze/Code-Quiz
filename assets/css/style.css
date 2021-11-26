@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'lumoscaps';
-    src: url("../Code-Quiz/assets/css/lumos-webfont.woff2") format('woff2'),
-         url('../Code-Quiz/assets/css/lumos-webfont.woff') format('woff');
+    src: url("lumos-webfont.woff2") format('woff2'),
+         url('lumos-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,7 +24,7 @@ body {
 }
     button {
         font-weight: bold;
-        background-color: transparent;
+        background: transparent;
     }    
 
 /*Header*/
@@ -101,7 +101,7 @@ h2 {
     width: 30%;
     margin: 0 5px 0 5px;
     color: var(--black-text);
-    
+    cursor: pointer;    
 }
 
 @media screen and (min-width:804px) {
@@ -153,6 +153,7 @@ li button{
     border-radius: 25pt;
     margin: 5px;
     text-align: center;
+    cursor: pointer;
 }
 
 #feedback {
@@ -213,6 +214,7 @@ li button{
     margin: 20px auto;
     color: var(--black-text);
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -231,31 +233,41 @@ li button{
     color:var(--black-text);
 }
 
-#reset {
+#highscores-section {
+    height: 85vh;
+}
+
+#reseto {
     display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     font-size: 20pt;
     background-image: radial-gradient(ellipse,#EEBA30, #D3A625);
     box-shadow: 0 1px 6px #D3A625, 0 1px 4px #D3A625;
     border: none;
     border-radius: 5px;
     padding: 6px 0 6px 0;
-    width: 50%;
-    margin: 20px auto;
+    width: 30%;
+    margin: 20px auto 0;
     color: var(--black-text);
     text-align: center;
+    z-index: 3;
+    cursor: pointer;
 }
 
 #back {
     text-decoration: none;
+    text-align: center;
     cursor: pointer;
     font-size: 20pt;
     color: var(--black-text);
     position: absolute;
-    padding: 6px 2px 6px 2px;
+    padding: 6px 6px;
     bottom: 0;
     left: 0;
     background-image: radial-gradient(ellipse,#EEBA30, #D3A625);
     box-shadow: 0 1px 6px #D3A625, 0 1px 4px #D3A625;
+    width: 20%;
+    cursor: pointer;
 }
-
-    

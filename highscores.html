@@ -10,24 +10,25 @@
     <title>Highscores</title>
   </head>
   <body>
-      <header id="highscores-div">
+    
+      <header id="highscores-div" onclick="event.stopPropagation()" >
       <h1>Highscores</h1>
       <div>
-        <a href="index.html" id="back" onclick="event.stopPropagation()">Go back</a>
+        <a href="index.html" id="back"onclick="event.stopPropagation()">Go back</a>
       </div>
       </header>
-      <main>
+      <main id="highscores-section" onclick="event.stopPropagation()">
         <ul id="highscores" class="center"> 
                 
             <li>
               
             </li>
         </ul>
+         
       </main>
-     
-    <div >
-      <button id="reset">Reset scores</button>   
-    </div> 
+      <div">
+        <p id="reseto">Reset scores</p>   
+      </div> 
     <script src="./assets/js/script1.js"></script>
   </body>
 </html>
