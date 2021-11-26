@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'lumoscaps';
+    src: url('lumos-webfont.woff2') format('woff2'),
+         url('lumos-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 :root {
     --main-background:#2a3d41; 
     --main-text: #dbc29d;
@@ -8,7 +16,7 @@
 
 
 body {
-    font-family: 'Lumos', 'Times New Roman', Times, serif;
+    font-family: 'lumoscaps', 'Times New Roman', Times, serif;
     font-weight: bold;
     color: var(--main-text);
     background: url(background.jpg) var(--main-background);
