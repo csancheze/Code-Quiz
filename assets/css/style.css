@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'lumoscaps';
-    src: url("./assets/css/lumos-webfont.woff2") format('woff2'),
-         url('./assets/css/lumos-webfont.woff') format('woff');
+    src: url("../Code-Quiz/assets/css/lumos-webfont.woff2") format('woff2'),
+         url('../Code-Quiz/assets/css/lumos-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 :root {
     --main-background:#2a3d41; 
     --main-text: #dbc29d;
