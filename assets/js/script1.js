@@ -48,7 +48,7 @@ function renderOldScores(){
   }
 }
 
-reseto = addEventListener("click", function(event) {
+reseto.addEventListener("click", function(event){
   event.preventDefault();
   localStorage.removeItem("storedHighscores")
   highscoresList.textContent = "";
