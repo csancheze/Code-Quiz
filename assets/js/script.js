@@ -42,7 +42,7 @@ var questionsMagic = [
   id: 2,
   question:"Which healing spell would heal a broken nose but not a leg?",
   answers:["Episkey", "Brackium Emendo", "Reparifors", "Vulnera Sanentur"],
-  rightAnswer:"Epsikey"
+  rightAnswer:"Episkey"
 },
 {
   id: 3,
