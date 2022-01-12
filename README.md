@@ -1,5 +1,23 @@
 # Code-Quiz
 
+by Cesar San.
+
+Contact me by Email: cesanchezesc@gmail.com
+
+List of Technologies:
+
+-HTML.
+
+-CSS.
+
+-Bootstrap
+
+-Javascript.
+
+-APIs.
+
+Weather Dashboard gives you your local weather (Free geolocation API is blocked by github) and let you look for the weather forecast of any city.
+
 The task was to create a Quiz  Game to practice coding concepts using DOM APIs, Javascript, CSS and HTML.
 
 I had the idea to make a Quiz webpage in which I could easily expand or exchange the content of the questions and answers in case I wanted to use the code in later projects. So I decided to choose another topic besides coding to practice this idea. That topic also helped me later to decide how i wanted the webpage to look and feel.
