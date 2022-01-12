@@ -22,6 +22,8 @@ First I created the HTML structure using a couple of sections that will display 
 
 
 ![Screenshot of the webpage showing it working as expected](./assets/images/screenshot.png)
+![Screenshot of the webpage showing it working as expected](./assets/images/screenshot2.png)
+![Screenshot of the webpage showing it working as expected](./assets/images/screenshot3.png)
 
  [Final Product:Github repository](https://github.com/csancheze/Code-Quiz)
 
