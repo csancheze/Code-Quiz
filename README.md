@@ -1,4 +1,4 @@
-# Code-Quiz
+# Code Quiz
 
 by Cesar San.
 
@@ -10,13 +10,9 @@ List of Technologies:
 
 -CSS.
 
--Bootstrap
-
 -Javascript.
 
--APIs.
-
-Weather Dashboard gives you your local weather (Free geolocation API is blocked by github) and let you look for the weather forecast of any city.
+Code Quiz is web based application of a game in which you have a limited time to answer correctly and get the highest score.
 
 The task was to create a Quiz  Game to practice coding concepts using DOM APIs, Javascript, CSS and HTML.
 
